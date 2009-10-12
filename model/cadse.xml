@@ -1,4 +1,10 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
 <ns2:c-cadse description="" cst-class="fr.imag.adele.cadse.advancedcadseg.AdvancedCadseGCST" version="0" id_cadse_definition="6009c981-da75-48d3-93e0-23ce4aac6f09" id="d4e61186-f25f-47c5-ad33-7cc7590e9c6d" name="Model.Workspace.AdvancedCadseG" xmlns:ns2="http://fr.imag.adele/fede/workspace/model">
     <cadse-ref id_cadse_definition="0dc9a0d0-73ff-4e82-a181-1b6792d49e75" id="2b50360d-d835-4e98-80a8-bc55fe5421e7" name="Model.Workspace.CadseG"/>
+    <ext-item-type item-type-source="43808065-4f70-4290-adba-cca999431ba1">
+        <creation-pages/>
+        <modification-pages>
+            <page titre="AItemType" uuid="78157cfd-9106-412b-937b-d4e860d69c8f" cas="1" class-name="fr.imag.adele.cadse.advancedcadseg.pages.AItemTypeModificationPageAItemType_CreationPage" id="modification-page-AItemType"/>
+        </modification-pages>
+    </ext-item-type>
 </ns2:c-cadse>
