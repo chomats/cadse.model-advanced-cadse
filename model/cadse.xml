@@ -4,7 +4,7 @@
     <ext-item-type item-type-source="43808065-4f70-4290-adba-cca999431ba1">
         <creation-pages/>
         <modification-pages>
-            <page titre="AItemType" uuid="78157cfd-9106-412b-937b-d4e860d69c8f" cas="1" class-name="fr.imag.adele.cadse.advancedcadseg.pages.AItemTypeModificationPageAItemType_CreationPage" id="modification-page-AItemType"/>
+            <page titre="AItemType" uuid="78157cfd-9106-412b-937b-d4e860d69c8f" cas="1" class-name="fr.imag.adele.cadse.advancedcadseg.pages.AItemTypeModificationPageAItemType_ModificationPage" id="modification-page-AItemType"/>
         </modification-pages>
     </ext-item-type>
 </ns2:c-cadse>
