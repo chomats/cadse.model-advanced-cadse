@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<ns2:c-cadse description="" cst-class="fr.imag.adele.cadse.advancedcadseg.AdvancedCadseGCST" version="0" id_cadse_definition="6009c981-da75-48d3-93e0-23ce4aac6f09" id="d4e61186-f25f-47c5-ad33-7cc7590e9c6d" name="Model.Workspace.AdvancedCadseG" xmlns:ns2="http://fr.imag.adele/fede/workspace/model">
+    <cadse-ref id_cadse_definition="0dc9a0d0-73ff-4e82-a181-1b6792d49e75" id="2b50360d-d835-4e98-80a8-bc55fe5421e7" name="Model.Workspace.CadseG"/>
+</ns2:c-cadse>
