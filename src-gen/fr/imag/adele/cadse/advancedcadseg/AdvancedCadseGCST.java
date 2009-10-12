@@ -10,6 +10,18 @@ import fr.imag.adele.cadse.core.LinkType;
     @generated
 */
 public class AdvancedCadseGCST {
+	/**
+	    @generated
+	*/
+	public static ItemType CADSEG_CONTENT_ITEM;
+	/**
+	    @generated
+	*/
+	public static ItemType CADSEG_CONTENT_ITEM_TYPE;
+	/**
+	    @generated
+	*/
+	public static LinkType CADSEG_CONTENT_ITEM_TYPE_lt_RUNTIME_TYPE;
 
 	/**
 	    @generated

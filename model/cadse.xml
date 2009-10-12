@@ -1,10 +1,27 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
 <ns2:c-cadse description="" cst-class="fr.imag.adele.cadse.advancedcadseg.AdvancedCadseGCST" version="0" id_cadse_definition="6009c981-da75-48d3-93e0-23ce4aac6f09" id="d4e61186-f25f-47c5-ad33-7cc7590e9c6d" name="Model.Workspace.AdvancedCadseG" xmlns:ns2="http://fr.imag.adele/fede/workspace/model">
     <cadse-ref id_cadse_definition="0dc9a0d0-73ff-4e82-a181-1b6792d49e75" id="2b50360d-d835-4e98-80a8-bc55fe5421e7" name="Model.Workspace.CadseG"/>
+    <item-type hidden="false" pattern-id="${#parent.qualified-name}{.}${#name}" icon="" manager-class="fr.imag.adele.cadse.advancedcadseg.managers.content.CadsegContentItemManager" display-name="CadsegContentItem" is-abstract="false" is-root-element="true" intID="0" has-content="true" package-name="content" super-type-name="148dcee3-8512-49eb-abe7-9f8d25502778" name="CadsegContentItem" qualified-name="AdvancedCadseG.content.CadsegContentItem" cst-name="CADSEG_CONTENT_ITEM" id="37aaf6a5-99b1-4c44-9d08-67a87579365b">
+        <creation-pages>
+            <page titre="Create CadsegContentItem" uuid="6d957758-1c9b-43ff-9e14-caed907eb1c4" cas="1" class-name="fr.imag.adele.cadse.advancedcadseg.pages.content.CadsegContentItemCreationPageCadsegContentItem_CreationPage" id="creation-page-CadsegContentItem"/>
+        </creation-pages>
+        <modification-pages>
+            <page titre="CadsegContentItem" uuid="74f396d4-966c-46e7-80d2-aab61b73af09" cas="3" class-name="fr.imag.adele.cadse.advancedcadseg.pages.content.CadsegContentItemModificationPageCadsegContentItem_ModificationPage" id="modification-page-CadsegContentItem"/>
+        </modification-pages>
+    </item-type>
+    <item-type hidden="false" pattern-id="${#parent-unique-name}{.}${#short-name}" icon="" manager-class="fr.imag.adele.cadse.advancedcadseg.managers.content.CadsegContentItemTypeManager" display-name="CadsegContentItemType" is-abstract="false" is-root-element="true" intID="0" has-content="true" package-name="content" super-type-name="43808065-4f70-4290-adba-cca999431ba1" name="CadsegContentItemType" qualified-name="AdvancedCadseG.content.CadsegContentItemType" cst-name="CADSEG_CONTENT_ITEM_TYPE" id="bdc9d756-2af3-4ebc-a3d3-04157f9f8043">
+        <outgoing-link hidden="false" tw-coupled="false" tw-evol-destination="immutable" tw-rev-specific="true" tw-commit="conflict" tw-update="merge" tw-evolution="immutable" isNatif="false" id="4b5a7ec1-de20-4936-8c86-884b5ea4d992" cst-name="CADSEG_CONTENT_ITEM_TYPE_lt_RUNTIME_TYPE" intID="0" destination="37aaf6a5-99b1-4c44-9d08-67a87579365b" isPart="false" isRequire="false" isComposition="false" isAnnotation="false" isAggregation="false" max="1" min="1" name="runtime-type"/>
+        <creation-pages>
+            <page titre="Create CadsegContentItemType" uuid="3448618e-47ba-4b04-8363-77532c20dfb6" cas="1" class-name="fr.imag.adele.cadse.advancedcadseg.pages.content.CadsegContentItemTypeCreationPageCadsegContentItemType_CreationPage" id="creation-page-CadsegContentItemType"/>
+        </creation-pages>
+        <modification-pages>
+            <page titre="CadsegContentItemType" uuid="b617c866-90cd-435d-ad0b-50b28b31521f" cas="3" class-name="fr.imag.adele.cadse.advancedcadseg.pages.content.CadsegContentItemTypeModificationPageCadsegContentItemType_ModificationPage" id="modification-page-CadsegContentItemType"/>
+        </modification-pages>
+    </item-type>
     <ext-item-type item-type-source="43808065-4f70-4290-adba-cca999431ba1">
         <creation-pages/>
         <modification-pages>
-            <page titre="AItemType" uuid="78157cfd-9106-412b-937b-d4e860d69c8f" cas="1" class-name="fr.imag.adele.cadse.advancedcadseg.pages.AItemTypeModificationPageAItemType_ModificationPage" id="modification-page-AItemType"/>
+            <page titre="AItemType" uuid="78157cfd-9106-412b-937b-d4e860d69c8f" cas="1" class-name="fr.imag.adele.cadse.advancedcadseg.pages.AItemTypeModificationPageAItemType_CreationPage" id="modification-page-AItemType"/>
         </modification-pages>
     </ext-item-type>
 </ns2:c-cadse>

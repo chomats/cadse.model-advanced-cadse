@@ -1,6 +1,5 @@
 package fr.imag.adele.cadse.advancedcadseg.pages.content;
 
-
 import fede.workspace.model.manager.properties.impl.mc.MC_ShortNameItemProperty;
 import fede.workspace.model.manager.properties.impl.ui.DTextUI;
 import fr.imag.adele.cadse.core.CadseGCST;
@@ -17,77 +16,70 @@ import fr.imag.adele.cadse.core.ui.PageFactory;
 import fr.imag.adele.cadse.core.ui.UIField;
 import fr.imag.adele.cadse.ui.field.core.FieldsCore;
 
-
-
 /**
-    @generated
-*/
-public class CadsegContentItemTypeCreationPageCadsegContentItemType_CreationPage extends PageImpl {
+ @generated
+ */
+public class CadsegContentItemTypeCreationPageCadsegContentItemType_CreationPage
+		extends PageImpl {
 
 	/**
 	    @generated
-	*/
+	 */
 	public Item parent;
 
 	/**
 	    @generated
-	*/
+	 */
 	public ItemType it;
 
 	/**
 	    @generated
-	*/
+	 */
 	public LinkType lt;
 
 	/**
 	    @generated
-	*/
+	 */
 	protected DTextUI fieldName;
-
 
 	/**
 	    @generated
-	*/
-	protected CadsegContentItemTypeCreationPageCadsegContentItemType_CreationPage (String id, String label, String title, String description, boolean isPageComplete, int hspan) {
-		super(id,label, title, description, isPageComplete, hspan);
+	 */
+	protected CadsegContentItemTypeCreationPageCadsegContentItemType_CreationPage(
+			String id, String label, String title, String description,
+			boolean isPageComplete, int hspan) {
+		super(id, label, title, description, isPageComplete, hspan);
 	}
 
 	/**
 	    @generated
-	*/
-	public CadsegContentItemTypeCreationPageCadsegContentItemType_CreationPage (Item parent, ItemType it, LinkType lt) {
-		super(
-			"creation-page-CadsegContentItemType",
-			"Create CadsegContentItemType",
-			"Create CadsegContentItemType",
-			"",
-			false,
-			3);
+	 */
+	public CadsegContentItemTypeCreationPageCadsegContentItemType_CreationPage(
+			Item parent, ItemType it, LinkType lt) {
+		super("creation-page-CadsegContentItemType",
+				"Create CadsegContentItemType", "Create CadsegContentItemType",
+				"", false, 3);
 		this.parent = parent;
 		this.it = it;
 		this.lt = lt;
-		this.fieldName= createFieldName();
+		this.fieldName = createFieldName();
 		setActionPage(null);
-		addLast(
-			 this.fieldName);
+		addLast(this.fieldName);
 
 		registerListener();
 	}
 
 	protected void registerListener() {
-	// add init and register
+		// add init and register
 	}
-
 
 	/**
 	    @generated
-	*/
+	 */
 	public DTextUI createFieldName() {
 		MC_ShortNameItemProperty mc = new MC_ShortNameItemProperty();
-		return new DTextUI(CadseGCST.ITEM_at_NAME,
-			"name",
-			EPosLabel.left,mc, null,1,"",false,false,false);
+		return new DTextUI(CadseGCST.ITEM_at_NAME, "name", EPosLabel.left, mc,
+				null, 1, "", false, false, false);
 	}
 
 }
-

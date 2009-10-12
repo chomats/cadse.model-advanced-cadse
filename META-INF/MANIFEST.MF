@@ -9,7 +9,9 @@ Bundle-ClassPath: .
 Eclipse-LazyStart: false
 Export-Package: fr.imag.adele.cadse.advancedcadseg,
  fr.imag.adele.cadse.advancedcadseg.managers,
- fr.imag.adele.cadse.advancedcadseg.pages
+ fr.imag.adele.cadse.advancedcadseg.managers.content,
+ fr.imag.adele.cadse.advancedcadseg.pages,
+ fr.imag.adele.cadse.advancedcadseg.pages.content
 Import-Package: fede.workspace.model.manager,
  fede.workspace.model.manager.properties,
  fede.workspace.model.manager.properties.impl.ic,
@@ -22,11 +24,13 @@ Import-Package: fede.workspace.model.manager,
  fr.imag.adele.cadse.core.impl.ui,
  fr.imag.adele.cadse.core.internal;version="2.2.1",
  fr.imag.adele.cadse.core.ui,
+ fr.imag.adele.cadse.core.util,
  fr.imag.adele.cadse.ui.field.core,
  org.eclipse.core.resources,
  org.eclipse.core.runtime,
  org.eclipse.core.runtime.jobs,
  org.eclipse.jface.fieldassist,
+ org.eclipse.ltk.core.refactoring,
  org.eclipse.ui.dialogs,
  org.osgi.framework
 Require-Bundle: Model.Workspace.CadseG,
