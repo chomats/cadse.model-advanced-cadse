@@ -25,4 +25,13 @@
         </modification-pages>
         <action-contributor class="fr.imag.adele.cadse.advancedcadseg.menu.DebugMenuActionContributor"/>
     </ext-item-type>
+    <ext-item-type item-type-source="148dcee3-8512-49eb-abe7-9f8d25502778">
+        <creation-pages>
+            <page titre="Create AItem" uuid="063ab395-1ada-4acc-87ea-dbfaf7e5ddcc" cas="1" class-name="fr.imag.adele.cadse.advancedcadseg.pages.AItemCreationPageAItem_CreationPage" id="creation-page-AItem"/>
+        </creation-pages>
+        <modification-pages>
+            <page titre="AItem" uuid="8b07e707-b770-4eb5-8266-242c08b3b193" cas="3" class-name="fr.imag.adele.cadse.advancedcadseg.pages.AItemModificationPageAItem_ModificationPage" id="modification-page-AItem"/>
+        </modification-pages>
+        <action-contributor class="fr.imag.adele.cadse.advancedcadseg.menu.ItemDebugMenuActionContributor"/>
+    </ext-item-type>
 </ns2:c-cadse>
