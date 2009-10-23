@@ -24,6 +24,7 @@ import fr.imag.adele.cadse.core.ui.IModelController;
 import fr.imag.adele.cadse.core.ui.IPage;
 import fr.imag.adele.cadse.core.ui.PageFactory;
 import fr.imag.adele.cadse.core.ui.UIField;
+import fr.imag.adele.cadse.ui.field.core.FieldsCore;
 
 /**
  @generated
@@ -35,6 +36,11 @@ public class AItemTypeModificationPageAItemType_ModificationPage extends
 	    @generated
 	 */
 	public Item item;
+
+	/**
+	    @generated
+	 */
+	protected DTextUI fieldItemFactory;
 
 	/**
 	    @generated
@@ -52,14 +58,24 @@ public class AItemTypeModificationPageAItemType_ModificationPage extends
 		super("modification-page-AItemType", "AItemType", "AItemType", "",
 				false, 3);
 		this.item = item;
+		this.fieldItemFactory = createFieldItemFactory();
 		setActionPage(null);
-		addLast();
+		addLast(this.fieldItemFactory);
 
 		registerListener();
 	}
 
 	protected void registerListener() {
 		// add init and register
+	}
+
+	/**
+	    @generated
+	 */
+	public DTextUI createFieldItemFactory() {
+		return new DTextUI(CadseGCST.ITEM_TYPE_at_ITEM_FACTORY, "item-factory",
+				EPosLabel.left, new MC_AttributesItem(), null, 1, "", false,
+				false, false);
 	}
 
 	/**
