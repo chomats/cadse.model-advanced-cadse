@@ -19,7 +19,9 @@
         </modification-pages>
     </item-type>
     <ext-item-type item-type-source="43808065-4f70-4290-adba-cca999431ba1">
-        <creation-pages/>
+        <creation-pages>
+            <page titre="Create AItemType" uuid="1a8c0e25-05a2-4a78-bc8f-f1cf77241c5c" cas="1" class-name="fr.imag.adele.cadse.advancedcadseg.pages.AItemTypeCreationPageAItemType_CreationPage" id="creation-page-AItemType"/>
+        </creation-pages>
         <modification-pages>
             <page titre="AItemType" uuid="78157cfd-9106-412b-937b-d4e860d69c8f" cas="3" class-name="fr.imag.adele.cadse.advancedcadseg.pages.AItemTypeModificationPageAItemType_ModificationPage" id="modification-page-AItemType"/>
         </modification-pages>
