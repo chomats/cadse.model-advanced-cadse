@@ -30,7 +30,7 @@ import fr.imag.adele.cadse.core.ui.MenuAction;
 import fr.imag.adele.cadse.core.ui.view.ViewDescription;
 
 
-import fr.imag.adele.cadse.core.delta.ItemDelta;
+import fr.imag.adele.cadse.core.transaction.delta.ItemDelta;
 
 /**
     @generated
