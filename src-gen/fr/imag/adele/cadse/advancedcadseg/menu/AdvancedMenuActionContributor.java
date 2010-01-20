@@ -86,7 +86,7 @@ public class AdvancedMenuActionContributor implements  IActionContributor {
 		
 		private void sync(LogicalWorkspaceTransaction t, Item it, CItemType cit) throws CadseException {
 			ItemDelta itDelta = t.getItem(it.getId());
-			itDelta.setAttribute(CadseGCST.ABSTRACT_ITEM_TYPE_at_ID_RUNTIME_, cit.getId());
+			itDelta.setAttribute(CadseGCST.TYPE_DEFINITION_at_ID_RUNTIME_, cit.getId().toString());
 			itDelta.setAttribute(CadseGCST.ITEM_TYPE_at_ITEM_FACTORY_, cit.getFactoryClass());
 		}
 

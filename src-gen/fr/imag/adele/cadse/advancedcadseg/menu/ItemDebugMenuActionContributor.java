@@ -58,7 +58,7 @@ public class ItemDebugMenuActionContributor implements IActionContributor {
 				}
 
 				@Override
-				public URL getImage() {
+				public String getImage() {
 					return null;
 				}
 			}, true);
