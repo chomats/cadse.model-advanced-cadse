@@ -25,6 +25,7 @@ import fr.imag.adele.cadse.core.Item;
 import fr.imag.adele.cadse.core.ItemType;
 import fr.imag.adele.cadse.core.Menu;
 import fr.imag.adele.cadse.core.transaction.LogicalWorkspaceTransaction;
+import fr.imag.adele.cadse.core.ui.AbstractActionContributor;
 import fr.imag.adele.cadse.core.ui.IActionContributor;
 import fr.imag.adele.cadse.core.ui.MenuAction;
 import fr.imag.adele.cadse.core.ui.view.ViewDescription;
@@ -35,7 +36,7 @@ import fr.imag.adele.cadse.core.transaction.delta.ItemDelta;
 /**
     @generated
 */
-public class AdvancedMenuActionContributor implements  IActionContributor {
+public class AdvancedMenuActionContributor extends AbstractActionContributor {
 
 	private final class SyncCadseXML extends MenuAction {
 		@Override
@@ -114,6 +115,5 @@ public class AdvancedMenuActionContributor implements  IActionContributor {
 		menu.addToGroup(Menu.CONTEXT_2_MENU, new SyncCadseXML(), true);
 		
 	}
-
 }
 

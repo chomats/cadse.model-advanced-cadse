@@ -12,13 +12,14 @@ import fr.imag.adele.cadse.core.transaction.delta.ItemDelta;
 import fr.imag.adele.cadse.core.transaction.delta.LinkDelta;
 import fr.imag.adele.cadse.core.impl.internal.delta.DeleteOperationImpl;
 import fr.imag.adele.cadse.core.transaction.LogicalWorkspaceTransaction;
+import fr.imag.adele.cadse.core.ui.AbstractActionContributor;
 import fr.imag.adele.cadse.core.ui.IActionContributor;
 import fr.imag.adele.cadse.core.ui.view.ViewDescription;
 
 /**
  * @generated
  */
-public class ItemDebugMenuActionContributor implements IActionContributor {
+public class ItemDebugMenuActionContributor  extends AbstractActionContributor {
 
 	/**
 	 * @generated
