@@ -41,11 +41,9 @@
 						<Export-Package>fr.imag.adele.cadse.advancedcadseg*;version="${version.cadse}"</Export-Package>
 						<Include-Resource>
 							build.properties=build.properties,
-							plugin.xml=plugin.xml,
 							model=model
 			            </Include-Resource>
-						<Bundle-Activator>fr.imag.adele.cadse.advancedcadseg.Activator</Bundle-Activator>
-						<Import-Package>org.eclipse.core.runtime;registry=!,javax.xml.bind*;version=!, *</Import-Package>
+						<Import-Package>javax.xml.bind*;version=!, *</Import-Package>
 					</instructions>
 				</configuration>
 			</plugin>
